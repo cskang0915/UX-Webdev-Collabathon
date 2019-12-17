@@ -1,24 +1,32 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-//import Form from './Form';
+import Forms from './Forms';
+import Button from 'react-bootstrap/Button'
+// import SubmitContainer from './containers/SubmitContainer'
+import Submit from './Submit';
+import Nav from './Nav'
 
 const Header = () => {
   return (
-    <header>
+    <header className='main'>
+      <Nav />
       <nav id="home">
-	  		<Link to={'/'}>Home</Link>
+	  		<Link to={'/'} className="link">Home</Link>
       </nav>
-      <h1>Want a free drink?</h1>
-
+      <h2>Want a free drink?</h2>
       <div>
-      	<h2>Subscribe to our newsletter, so you can stay up-to-date on our events.</h2>
+      	<h3>Subscribe to our newsletter, so you can stay up-to-date on our events.</h3>
       </div>
-   		
-   		{/* <Form /> */}
+   	
+			<Forms />
 
+      <p>By clicking "Submit" you agree to our <Link to={'/privacy'} className="link">Privacy Policy</Link></p>
       
-      <p>By clicking "Submit" you agree to our <Link to={'/privacy'}>Privacy Policy</Link></p>
-      
+			<Button variant="primary" type="submit" className="link">
+      	<Link to={'/submit'}>
+      		Submit
+        </Link>
+      </Button>
 
     </header>
   );
