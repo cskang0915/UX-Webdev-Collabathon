@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <div>
       <Nav />
-      <nav id="home">
+      <div id="home">
 	  		<Link to={'/'}>Home</Link>
-      </nav>
+      </div>
       <h1>Want a free drink?</h1>
 
       <div>

@@ -10,6 +10,10 @@ class Form extends Component{
 		frequency: ''
 	}
 
+	onChange = (e) => {
+		
+	}
+
 	render() {
 		return(
 		<form>
