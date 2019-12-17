@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+//import Form from './Form';
 
 const Header = () => {
   return (
@@ -12,8 +13,11 @@ const Header = () => {
       <div>
       	<h2>Subscribe to our newsletter, so you can stay up-to-date on our events.</h2>
       </div>
+   		
+   		{/* <Form /> */}
+
       
-      <p>By clicking "Submit" you agree to our <nav id="privacy"><Link to={'/privacy'}>Privacy Policy</Link></nav></p>
+      <p>By clicking "Submit" you agree to our <Link to={'/privacy'}>Privacy Policy</Link></p>
       
 
     </header>

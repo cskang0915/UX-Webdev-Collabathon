@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Home from './Home';
+import { Link } from 'react-router-dom'
 
 class PrivacyPolicy extends Component {
 	render() {
@@ -15,7 +17,12 @@ class PrivacyPolicy extends Component {
 					"Lorem Ipsum", "us", "our" or "we" includes Wasai LLC, without limitation. 
 					We will not use or share your personal information with anyone except as 
 					described in this Privacy Policy.</p>
+					<Link to={'/'}>Home</Link>
 			</div>
+
+	  		
+
+
 			
 			)
 	}
