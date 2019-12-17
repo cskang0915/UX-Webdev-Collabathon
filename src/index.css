@@ -24,7 +24,7 @@ code {
 }
 
 .main {
-	
+
 }
 
 header {
@@ -74,6 +74,11 @@ p {
 
 Link {
 	color: #FFFFFF;
+	text-align: center;
+}
+
+.link {
+	text-align: center;
 }
 
 .link:visited {
@@ -85,14 +90,21 @@ Link {
 }
 
 .text-muted {
-	font-size: 12px;
+	font-size: 10px;
 	text-align: left;
+	margin-left: 0px;
 
 }
 
 .form-group {
   margin: 5px;
   padding: 10px;
+  text-align: left;
+
+#formBasicCheckbox {
+	text-align: left;
+}
+
 }
 
 input {
@@ -111,7 +123,8 @@ input {
 
 .check {
 	text-align: left;
-	margin: 7px;
+	margin-top: 5px;
+	margin-left: -15.5px;
 
 }
 
@@ -125,7 +138,9 @@ input {
 
 .notify {
 	text-align: left;
-	margin-left: 23px;
+	margin-left: 0px;
+	font-family: Roboto;
+	font-size: 15px;
 }
 
 .mainheader {
@@ -251,6 +266,10 @@ input {
 }
 .nav {
   padding: 10px;
+}
+
+#applychanges {
+	text-align: center;
 }
 
 

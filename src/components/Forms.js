@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button'	
 import InputGroup from 'react-bootstrap/InputGroup'
 import FormControl from 'react-bootstrap/FormControl'
 import Card from 'react-bootstrap/Card'
@@ -17,26 +17,24 @@ class Forms extends Component {
 	}
 
 	render() {
-		return(
+		return(	
 			<Form>
 	  		<div className="form-group">
-					<input className="form-control form-control-lg" type="text" id="name" name="name" placeholder='First Name'/>
+					<input className="form-control form-control-lg" type="text" id="name" name="name" placeholder='First Name*'/>
 				</div>
 
 				<div className="form-group">
-					<input className="form-control form-control-lg" type="text" id="name" name="name" placeholder="Last Name"/>
+					<input className="form-control form-control-lg" type="text" id="name" name="name" placeholder="Last Name*"/>
 				</div>
 
 			  <Form.Group controlId="formBasicEmail">
-				<Form.Control type="email" placeholder="Email address" />
+				<Form.Control type="email" placeholder="Email address*" />
 				
 			  </Form.Group>
 			  <Form.Text className="text-muted">
 				  We'll never share your email with anyone else.
 				</Form.Text>
 				
-				
-
 			 {/*  <div> */}
 				{/*   <InputGroup className="mb-3"> */}
 				{/* 	<InputGroup.Prepend> */}

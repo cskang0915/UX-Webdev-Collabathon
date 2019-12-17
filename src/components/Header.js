@@ -9,10 +9,9 @@ import Nav from './Nav'
 const Header = () => {
   return (
     <header className='main'>
-      <Nav />
-      <nav id="home">
-	  		<Link to={'/'} className="link">Home</Link>
-      </nav>
+
+      {/* <Nav /> */}
+      
       <h2>Want a free drink?</h2>
       <div>
       	<h3>Subscribe to our newsletter, so you can stay up-to-date on our events.</h3>
