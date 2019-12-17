@@ -1,12 +1,13 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Home from '../components/Home';
-import SubscriptionForm from '../components/SubscriptionForm';
+import PrivacyPolicy from '../components/PrivacyPolicy';
 
 export default (
-	<Switch>
+	<div>
 		<Route exact path='/' component={ Home }/>
-		<Route path='/subscription' component={ SubscriptionForm }/>
-	</Switch>
+		<Route path='/privacy' component={ PrivacyPolicy }/>
+	</div>
+		
 );
 

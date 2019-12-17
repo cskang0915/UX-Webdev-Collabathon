@@ -13,12 +13,28 @@ code {
     monospace;
 }
 
+.container {
+	width: 60%;
+	max-width: 300px;
+	min-width: 300px;
+	margin: 30px auto;
+	background: #333333;
+	padding: 1.5rem 2rem;
+	box-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+
+header {
+	font-family: 'Roboto';
+	text-align: center;
+}
+
 h1 {
     font-family: 'Roboto';
     text-align: center;
     font-weight: 400;
     margin: 0;
     color: #FFFFFF;
+    font-size: 30px;
 }
 h2 {
     font-family: 'Roboto';
@@ -29,7 +45,12 @@ h2 {
     font-size: 18px;
 }
 
-nav {
+div {
+    color: #FFFFFF;
+
+}
+
+nav:visited {
   display: flex;
   justify-content: space-around;
   color: #FFFFFF;
@@ -37,7 +58,12 @@ nav {
   color:white;
 }
 
-Link {
+p {
+	text-align: center;
+	font-size: 12px;
+}
+
+Link:visited {
 	color: #FFFFFF;
 
 }
