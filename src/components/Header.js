@@ -14,12 +14,13 @@ const Header = () => {
       <h1>Want a free drink?</h1>
 
       <div>
-      	<h2>Subscribe to our newsletter, so you can stay up-to-date on our events.</h2>
+      	<h3>Subscribe to our newsletter, so you can stay up-to-date on our events.</h3>
       </div>
-   		
-       <Form />
+   	
+			<Form />
+
+      <p>By clicking "Submit" you agree to our <Link to={'/privacy'} className="link">Privacy Policy</Link></p>
       
-      <p>By clicking "Submit" you agree to our <Link to={'/privacy'}>Privacy Policy</Link></p>
     </div>
   );
 };
