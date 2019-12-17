@@ -10,7 +10,9 @@ import Button from 'react-bootstrap/Button'
 class Submit extends Component {
 	render() {
 		return(
+
 			<div id='formtext'>
+				<form>
 				<Form.Text id="newsletter">
 				  Which newsletters do you want to receive? (Please check all that apply)
 				</Form.Text>
@@ -45,11 +47,12 @@ class Submit extends Component {
 		        <span>Monthly</span>
 		      </label>
 		    </p>
-		    <Button variant="primary" type="submit" className="link">
+		    <Button variant="primary" type="submit" id="applychanges">
       	<Link to={'/updated'}>
       		Apply Changes
         </Link>
       </Button>
+      </form>
 			</div>
 		)
 	}

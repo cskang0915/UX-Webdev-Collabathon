@@ -7,6 +7,7 @@ class PrivacyPolicy extends Component {
 	render() {
 		return(
 			<div>
+				<form>
 				<h4>Privacy Policy</h4>
 				<p>We at TechnoClub respect the privacy of your personal information and, 
 					as such, make every effort to ensure your information is protected 
@@ -20,6 +21,7 @@ class PrivacyPolicy extends Component {
 					We will not use or share your personal information with anyone except as 
 					described in this Privacy Policy.</p>
 					<Link to={'/'} className="link">Go Back</Link>
+					</form>
 			</div>
 		)
 	}
