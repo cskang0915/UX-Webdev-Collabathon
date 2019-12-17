@@ -13,7 +13,7 @@ class App extends Component{
     return (
       <Router>
         <div className="container">
-        <h1>TechnoClub</h1>
+        <h1>Techno Club</h1>
           <Switch>
             <Route exact path='/' component={ Header }/>
             <Route path='/privacy' component={ PrivacyPolicy }/>

@@ -21,7 +21,7 @@ code {
 }
 
 .main {
-	
+
 }
 
 header {
@@ -71,6 +71,11 @@ p {
 
 Link {
 	color: #FFFFFF;
+	text-align: center;
+}
+
+.link {
+	text-align: center;
 }
 
 .link:visited {
@@ -81,17 +86,31 @@ Link {
 	color: #FFFFFF;
 }
 
+<<<<<<< HEAD
 form {
   max-width: 300px;
 	margin: 30px auto;
 	background: #333333;
 	padding: 1.5rem 2rem;
   box-shadow: 0 0 2px rgba(0,0,0,0.2);
+=======
+.text-muted {
+	font-size: 10px;
+	text-align: left;
+	margin-left: 0px;
+
+>>>>>>> cb4885ef659fca8b1ebf7435e1d7c096d3d7004c
 }
 
 .form-group {
   margin: 5px;
   padding: 10px;
+  text-align: left;
+
+#formBasicCheckbox {
+	text-align: left;
+}
+
 }
 
 input {
@@ -106,6 +125,7 @@ input {
   padding: 10px;
 }
 
+<<<<<<< HEAD
 #menuToggle
 {
   display: block;
@@ -123,6 +143,12 @@ input {
   color: #232323;
   transition: color 0.3s ease;
 }
+=======
+.check {
+	text-align: left;
+	margin-top: 5px;
+	margin-left: -15.5px;
+>>>>>>> cb4885ef659fca8b1ebf7435e1d7c096d3d7004c
 
 #menuToggle a:hover
 {
@@ -247,7 +273,9 @@ input {
 
 .notify {
 	text-align: left;
-	margin-left: 23px;
+	margin-left: 0px;
+	font-family: Roboto;
+	font-size: 15px;
 }
 
 .mainheader {
@@ -373,6 +401,10 @@ input {
 }
 .nav {
   padding: 10px;
+}
+
+#applychanges {
+	text-align: center;
 }
 
 
