@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Amethysta', 
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('./images/club.jpg');
   background-size: cover;
-  background-position: center;
+
   background-repeat: no-repeat;
 }
 
@@ -25,7 +25,7 @@ code {
 }
 
 header {
-	font-family: 'Roboto';
+	font-family: 'Amethysta';
 	text-align: center;
 }
 
@@ -44,7 +44,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Roboto';
+    font-family: 'Amethysta';
     text-align: center;
     font-weight: 400;
     margin: 0;
@@ -52,21 +52,23 @@ h2 {
     font-size: 30px;
 }
 h3 {
-    font-family: 'Roboto';
+    font-family: 'Amethysta';
     text-align: center;
-    font-weight: 400;
+    font-weight: 20;
     margin: 0;
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 13px;
+    margin-top: 10px;
 }
 h4 {
-	font-family: 'Roboto';
+	font-family: 'Amethysta';
 	text-align: center;
 	font-weight: 400;
 }
 p {
 	text-align: center;
 	font-size: 12px;
+	font-family: 'Amethysta';
 }
 
 Link {
@@ -89,15 +91,17 @@ Link {
 form {
   max-width: 300px;
 	margin: 30px auto;
-	background: #333333;
+	background: #0A0A0A;
 	padding: 1.5rem 2rem;
   box-shadow: 0 0 2px rgba(0,0,0,0.2);
 }
 
 .text-muted {
-	font-size: 10px;
+	font-size: 8px;
 	text-align: left;
-	margin-left: 0px;
+	margin-left: 5px;
+	font-weight: lightest;
+	line-height: 0px;
 }
 
 .form-group {
@@ -237,8 +241,9 @@ input {
 #menu
 {
   position: absolute; left: 0px;
-  width: 300px;
-  margin: -100px 0 0 -50px;
+
+  width: 150px;
+  margin: -100px 0 0 -120px;
   padding: 50px;
   padding-top: 100px;
   
@@ -256,7 +261,7 @@ input {
 #menu li
 {
   padding: 10px 0;
-  font-size: 22px;
+  font-size: 12px;
 }
 
 /*
@@ -274,22 +279,45 @@ input {
 .notify {
 	text-align: left;
 	margin-left: 0px;
-	font-family: Roboto;
+	font-family: Amethysta;
 	font-size: 15px;
 }
 
 #applychanges {
 	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+#applychanges:visited {
+	color: black;
+	text-decoration: none;
 }
 
 #byClicking {
 	margin-top: 50px;
 }
 
+#returnhome:visited, returnhome:active {
+	text-decoration: none;
+	color: white;
+}
+
 /* #firstform {
 	margin-top: 50px;
 } */
 
+#special {
+	line-height: 15px;
+	font-size: 10px;
 
+}
 
+#preferences {
+	line-height: 90px;
+}
+
+#check {
+	font-family: 'Amethysta';
+	
+}
 

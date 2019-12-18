@@ -10,7 +10,6 @@ import Button from 'react-bootstrap/Button'
 class Submit extends Component {
 	render() {
 		return(
-
 			<div id='formtext'>
 				<form>
 				<Form.Text id="newsletter">

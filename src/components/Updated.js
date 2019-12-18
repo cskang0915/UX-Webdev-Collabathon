@@ -9,9 +9,9 @@ class Updated extends Component {
 	render() {
 		return(
 			<div>
-				<form>
-				<h4>You preferences have been updated.</h4>
-				<Link to={'/'} className="link">Return Home</Link>
+				<form id="preferences">
+				<h4>Your preferences have been updated.</h4>
+				<Link to={'/'} id="returnhome">Return Home</Link>
 				</form>
 			</div>
 		)

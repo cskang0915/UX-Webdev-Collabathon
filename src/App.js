@@ -5,12 +5,14 @@ import routes from './config/routes';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import Submit from './components/Submit'
 import Updated from './components/Updated'
+import Carousel from 'react-bootstrap/Carousel'
 
 class App extends Component{
+
   render() {
     return (
       <Router>
-        <div>
+
           <div className="container">
           <h1>Techno Club</h1>
             <Switch>
@@ -20,7 +22,7 @@ class App extends Component{
               <Route path='/updated' component={ Updated }/>
             </Switch>
           </div>
-        </div>
+
       </Router>
     );
   };
